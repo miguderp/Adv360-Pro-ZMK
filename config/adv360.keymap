@@ -36,11 +36,11 @@
 
         default_layer {
             bindings = <
-&kp ESC    &kp N1     &kp N2    &kp N3    &kp N4  &kp N5  &to 0                                                    &none      &kp N6  &kp N7    &kp N8     &kp N9    &kp N0    &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R   &kp T   &to 1                                                    &to 3      &kp Y   &kp U     &kp I      &kp O     &kp P     &kp BSLH
-&kp CAPS   &kp A      &kp S     &kp D     &kp F   &kp G   &to 2     &kp LEFT  &kp RIGHT      &kp HOME   &kp END    &to 4      &kp H   &kp J     &kp K      &kp L     &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V   &kp B                       &kp UP         &kp PG_UP                        &kp N   &kp M     &kp COLON  &kp DOT   &kp FSLH  &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &mo 4           &kp BSPC  &kp DEL   &kp DOWN       &kp PG_DN  &kp ENTER  &kp SPACE          &kp RCMD  &kp RCTRL  &kp LBKT  &kp RBKT  &mo 2
+&kp ESC    &kp N1     &kp N2    &kp N3    &kp N4  &kp N5  &to 0                                                    &none      &kp N6  &kp N7     &kp N8     &kp N9     &kp N0     &kp MINUS
+&kp TAB    &kp Q      &kp W     &kp E     &kp R   &kp T   &to 1                                                    &to 3      &kp Y   &kp U      &kp I      &kp O      &kp P      &kp BSLH
+&kp CAPS   &kp A      &kp S     &kp D     &kp F   &kp G   &to 2     &kp LEFT  &kp RIGHT      &kp HOME   &kp END    &to 4      &kp H   &kp J      &kp K      &kp L      &kp M      &kp SQT
+&kp LSHFT  &kp Z      &kp X     &kp C     &kp V   &kp B                       &kp UP         &kp PG_UP                        &kp N   &kp COMMA  &kp COLON  &kp SLASH  &kp EQUAL  &kp RSHFT
+&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &mo 4           &kp BSPC  &kp DEL   &kp DOWN       &kp PG_DN  &kp ENTER  &kp SPACE          &kp RCMD   &kp RCTRL  &kp LBKT   &kp RBKT   &mo 2
             >;
         };
 
