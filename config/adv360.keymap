@@ -76,11 +76,11 @@
 
         dev_chars {
             bindings = <
-&trans  &trans  &trans  &trans          &trans           &trans            &trans                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans           &trans            &trans                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LT  &kp GT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans           &trans                                       &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans          &trans                             &trans             &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans          &trans           &trans            &trans                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans          &trans           &trans            &trans                                                 &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp COMMA  &kp GT  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans          &trans           &trans                                       &trans      &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans     &trans  &trans          &trans                             &trans             &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
