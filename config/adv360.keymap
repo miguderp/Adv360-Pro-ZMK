@@ -43,30 +43,30 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        base_layer {
             bindings = <
 &kp ESC    &kp N1     &kp N2    &kp N3          &kp N4           &kp N5  &to 0                                                                &bl BL_SET 100  &kp N6  &kp N7        &kp N8          &kp N9    &kp N0         &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E           &kp R            &kp T   &to 1                                                                &to 3           &kp Y   &kp U         &kp I           &kp O     &kp P          &kp BSLH
+&kp TAB    &kp Q      &kp W     &kp E           &kp R            &kp T   &to 0                                                                &to 3           &kp Y   &kp U         &kp I           &kp O     &kp P          &kp BSLH
 &kp CAPS   &kp A      &kp S     &kp D           &kp F            &kp G   &to 2     &mo 2    &kp LEFT_COMMAND      &toggle_homerow  &kp RGUI   &to 4           &kp H   &kp J         &kp K           &kp L     &kp SEMICOLON  &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C           &kp V            &kp B                      &kp HOME              &kp PG_UP                                   &kp N   &kp M         &kp COMMA       &kp DOT   &kp FSLH       &kp RSHFT
 &mo 2      &kp GRAVE  &kp CAPS  &kp LEFT_ARROW  &kp RIGHT_ARROW          &kp BSPC  &kp DEL  &kp END               &kp PG_DN        &kp ENTER  &kp SPACE               &kp UP_ARROW  &kp DOWN_ARROW  &kp LBKT  &kp RBKT       &mo 2
             >;
         };
 
-        layer_keypad {
+        placeholder {
             bindings = <
-&kp EQUAL  &kp N1     &kp N2    &kp N3    &kp N4     &kp N5  &trans                                                   &mo 3      &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-&kp TAB    &kp Q      &kp W     &kp E     &kp R      &kp T   &none                                                    &none      &kp Y   &kp KP_N7   &kp KP_N8     &kp KP_N9      &kp KP_MINUS     &kp BSLH
-&kp ESC    &kp A      &kp S     &kp D     &kp F      &kp G   &none     &kp LCTRL  &kp LALT      &kp LGUI   &kp RCTRL  &none      &kp H   &kp KP_N4   &kp KP_N5     &kp KP_N6      &kp KP_PLUS      &kp SQT
-&kp LSHFT  &kp Z      &kp X     &kp C     &kp V      &kp B                        &kp HOME      &kp PG_UP                        &kp N   &kp KP_N1   &kp KP_N2     &kp KP_N3      &kp KP_ENTER     &kp RSHFT
-&mo 2      &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN  &kp ENTER  &kp KP_N0          &kp UP      &kp DOWN      &kp KP_DOT     &kp RBKT         &mo 2
+&none  &none  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none                &none      &none                &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none         &none  &none  &none      &none  &none  &none         &none  &none  &none  &none  &none
             >;
         };
 
-        layer_fn {
+        special_chars {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                &kp F6                    &tog 1                                      &mo 3   &kp F7  &kp F8        &kp F9        &kp F10  &kp F11  &kp F12
-&trans  &trans  &kp A   &trans  &kp LA(LPAR)          &kp LA(RPAR)              &none                                       &none   &trans  &kp RA(LBKT)  &kp RA(RBKT)  &trans   &trans   &trans
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                &kp F6                    &none                                       &none   &kp F7  &kp F8        &kp F9        &kp F10  &kp F11  &kp F12
+&trans  &trans  &none   &trans  &kp LA(LPAR)          &kp LA(RPAR)              &none                                       &none   &trans  &kp RA(LBKT)  &kp RA(RBKT)  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &kp NON_US_BACKSLASH  &kp LS(NON_US_BACKSLASH)  &none   &trans  &trans      &trans  &trans  &none   &trans  &kp LS(LBKT)  &kp LS(RBKT)  &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans                &trans                                    &trans      &trans                  &trans  &kp LBRC      &kp RBRC      &trans   &trans   &trans
 &trans  &trans  &trans  &trans  &trans                                          &trans  &trans  &trans      &trans  &trans  &trans          &trans        &trans        &trans   &trans   &trans
