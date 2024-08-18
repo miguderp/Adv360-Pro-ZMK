@@ -73,9 +73,9 @@
 
         placeholder_3 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none                                  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &to 0                                  &none  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &to 1                                  &to 3  &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none  &to 2  &none  &none      &none  &none  &to 4  &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none  &none                &none      &none                &none  &none  &none  &none  &none  &none
 &none  &none  &none  &none  &none         &none  &none  &none      &none  &none  &none         &none  &none  &none  &none  &none
             >;
